@@ -1,116 +1,105 @@
 body {
-  font-family: "Lato", sans-serif;
-  margin: 0;
-  background-color: #1a1a1a;
-  color: #ffffff;
-  overflow: hidden;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
 
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  padding-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo {
-  text-align: center;
-  margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.logo-img {
-  width: 150px; /* Pielāgojams logo izmērs */
-  height: auto;
-  margin-bottom: 20px;
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    padding-left: 20px;
 }
 
-.sidenav a {
-  padding: 10px 8px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 10px;
-  transition: color 0.3s ease-in-out;
+.sidebar a {
+    padding: 10px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    transition: color 0.3s ease-in-out;
 }
 
-.sidenav a:hover {
-  color: #00ffff; /* Hover krāsa saitēm */
+.sidebar a:hover {
+    color: #00ffff;
 }
 
 .main {
-  margin-left: 200px; /* Tāds pats kā sidenav platums */
-  padding: 20px;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  height: 100vh;
-  text-align: left;
-  padding-left: 80px;
-  width: 1000px;
+    margin-left: 200px; /*sidebar*/
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    text-align: left;
+    padding-left: 80px;
+    width: 1000px;
 }
 
-.intro {
-  padding-bottom: 400px;
-  font-family: monospace;
+.text {
+    padding-bottom: 400px;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+.text h1 {
+    font-size: 5.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+  
+  .text .red {
+    color: #f05454;
+    font-weight: bold;
+}
+  
+  .text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #cccccc;
 }
 
-.intro h1 {
-  font-size: 5.5rem;
-  margin-bottom: 20px;
-  color: #ffffff;
+.github {
+    font-size: 20px;
+    display: inline-flex;
+    background-color: transparent;
+    border: 2px solid #00ffff;
+    padding: 10px 20px;
+    color: #00ffff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.intro .highlight {
-  color: #f05454; /* Izcelta daļa teksta "Jack" */
-  font-weight: bold;
-}
-
-.intro p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-  color: #cccccc;
-}
-
-.contact-btn {
-  font-size: 20px;
-  display: inline-flex;
-  background-color: transparent;
-  border: 2px solid #00ffff;
-  padding: 10px 20px;
-  color: #00ffff;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.contact-btn:hover {
-  background-color: #00ffff;
-  color: #111;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-.githubimg {
-  height: 25px;
+.github:hover {
+    background-color: #00ffff;
+    color: #111;
 }
 
 hr {
-  width: 200px;
-  color: lightgray;
-}
-
-.list {
-  margin-top: 10px;
+    width: 200px;
+    height: 5px;
+    border: 0; 
+    background-color: #1a1a1a;
 }
