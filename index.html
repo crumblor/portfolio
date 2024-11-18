@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sveiki!</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js">
+    </script>
 </head>
 <body>
 <div class="sidebar">
     <div class="logo">
-        <img src="https://123emoji.com/wp-content/uploads/2016/04/110183.png">
+        <img onclick="bide()" src="https://123emoji.com/wp-content/uploads/2016/04/110183.png">
     </div>
     <hr>
-    <a class="sidebar-link" href="" onclick="">About</a>
+    <a class="sidebar-link" href="#" onclick="aboutA()">About</a>
     <hr>
-    <a class="sidebar-link" href="" onclick="">Skills</a>
+    <a class="sidebar-link" href="#" onclick="skillsA()">Skills</a>
     <hr>
-    <a class="sidebar-link" href="" onclick="">Work</a>
+    <a class="sidebar-link" href="#" onclick="workA()">Work</a>
     <hr>
-    <a class="sidebar-link" href="" onclick="">Contact</a>
+    <a class="sidebar-link" href="#" onclick="contactA()">Contact</a>
     <hr>
 </div>
 <div class="main">
@@ -27,13 +29,56 @@
             <br>
             Sveiki,<br>
             esmu<span class="red"> Roberts,</span><br>
-            web developer.
+            web developers.
         </h1>
         <p>Front End Developer / Scratch Founding Member</p>
         <a href="https://github.com/crumblor" target="_blank" class="github">
             <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
             GitHub!
         </a>
+    </div>
+    <div class="text-box">
+        <div class="about" id="about">
+            <h1>Par Mani</h1>
+            <div class="about-div">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="https://media.istockphoto.com/id/1407655089/photo/funny-pomeranian-dog-summer-ready-for-bath-wrapped-with-a-towel-and-sunglasses-isolated-on.jpg?s=612x612&w=0&k=20&c=wCmR5IKoVVTm5NQY9UL2hBTTkU0AvlG3gnEK8AWUWr8=">
+            </div>
+        </div>
+        <div class="Skills" id="skills">
+            <h1>Manas Prasmes</h1>
+            <div class="Skills-div">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur..</p>
+                <div class="skills-programmes">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png">
+                    <img src="https://miro.medium.com/v2/resize:fit:344/1*tZHcs0d7MAG-BBcjBekZYA.png">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png">
+                </div>
+            </div>
+        </div>
+        <div class="Work" id="work">
+            <h1>Darbi</h1>
+            <div class="work-div">
+                <div class="darbs">
+                    <h2>Darbs 1</h2>
+                    <img src="https://i.redd.it/i-got-bored-so-i-decided-to-draw-a-random-image-on-the-v0-4ig97vv85vjb1.png?width=1280&format=png&auto=webp&s=7177756d1f393b6e093596d06e1ba539f723264b">
+                </div>
+                <div class="darbs">
+                    <h2>Darbs 2</h2>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI0Oc9tGIzrpArxdS1fwqz1vI8jrVMefimow&s">
+                </div>
+                <div class="darbs">
+                    <h2>Darbs 3</h2>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYkpAMeQ7efqBOQKrfmaR28jcKnHZgK5cQ9w&s">
+                </div>
+            </div>
+        </div>
+        <div class="Contact" id="contact">
+            <h1>Kontakti</h1>
+            <p>E-mail - rgubis41@gmail.com</p>
+        </div>
     </div>
 </div>
 </body>

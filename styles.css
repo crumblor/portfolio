@@ -3,6 +3,8 @@ body {
     margin: 0;
     background-color: #1a1a1a;
     color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
 }
 
 .sidebar {
@@ -49,18 +51,14 @@ body {
 .main {
     margin-left: 200px; /*sidebar*/
     padding: 20px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
     height: 100vh;
     text-align: left;
     padding-left: 80px;
-    width: 1000px;
+    width: 100%;
 }
 
 .text {
-    padding-bottom: 500px;
-    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 25px;
 }
   
 .text h1 {
@@ -102,4 +100,91 @@ hr {
     height: 5px;
     border: 0; 
     background-color: #1a1a1a;
+}
+
+.about {
+    font-size: larger;
+    height: auto;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.about-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    gap: 100px;
+}
+
+.about-div p {
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+
+.about-div img {
+    width: 350px;
+    padding-bottom: 1000px;
+    border: #00ffff 3px solid;
+    padding-bottom: 0px;
+}
+
+.Skills {
+    font-size: larger;
+    height: auto;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.Skills-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    gap: 100px;
+}
+
+.Skills-div p {
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.skills-programmes {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 1fr 1fr;
+}
+
+.skills-programmes img {
+    height: 50px;
+    padding-top: 20px;
+}
+
+.Work {
+    font-size: larger;
+    height: auto;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    width: 100%;
+}
+
+.work-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+}
+
+.work-div img {
+    width: 230px;
+    border: #00ffff 3px solid;
+}
+
+.Contact {
+    font-size: larger;
+    height: auto;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
 }
