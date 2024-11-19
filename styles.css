@@ -167,7 +167,7 @@ hr {
     position: absolute;
     opacity: 0;
     transition: opacity 0.5s ease-out;
-    width: 85%;
+    width: 100%;
 }
 
 .work-div {
@@ -200,8 +200,8 @@ hr {
     }
     
     .sidebar {
-        height: 100px;
-        width: 83%;
+        height: 50px;
+        width: 100%;
         position: fixed;
         top: 0;
         left: 0;
@@ -219,7 +219,7 @@ hr {
     }
     
     .logo img {
-        width: 100px;
+        width: 40px;
         height: auto;
         margin-bottom: 20px;
         padding-left: 20px;
@@ -231,7 +231,7 @@ hr {
         justify-content: space-around;
         padding: 10px 8px;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 15px;
         color: #818181;
         width: 100px;
         text-align: center;
@@ -250,7 +250,7 @@ hr {
         padding: 20px;
         height: 100vh;
         text-align: left;
-        padding-left: 80px;
+        padding-left: 25px;
         width: 100%;
     }
     
@@ -259,7 +259,7 @@ hr {
     }
       
     .text h1 {
-        font-size: 4rem;
+        font-size: 2rem;
         margin-bottom: 20px;
         color: #ffffff;
     }
